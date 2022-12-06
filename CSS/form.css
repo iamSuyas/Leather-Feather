@@ -1,0 +1,96 @@
+label{
+    display:block;
+    margin:10px auto;
+
+}
+body{
+    font-family: sans-serif;
+    font-size:18px;
+    background-image: url(https://www.langtang.com/public/uploads/frontend/main/highlights-of-nepal-photography-tour-1485757546087.jpg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-attachment: fixed;
+    color:#000;
+}
+#page{
+    margin-top: 25px;
+}
+p,h1{
+    
+    text-align:center;
+}
+#survey-form{
+    margin: auto;
+    width:600px;
+    padding:50px 30px 30px 100px;
+    background: rgba(240, 240, 240,0.5);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+input,select,textarea{
+    width:85%;
+    margin-top:5px;
+    border-color: #000;
+    border-radius: 5px;
+    padding:8px;
+    background-color: rgba(0, 0, 0, 0.12);
+    outline:0;
+}
+.inline{
+    width:unset;
+}
+h1{
+   margin-bottom: -5px; 
+   margin-top:50px;
+   font-size: 36px;
+}
+select{
+    width:88.5%
+}
+textarea{
+    width:85.5%;
+    color: rgba(0, 0, 0, 1);
+    height:150px;
+    font-weight: 200;
+    font-family: sans-serif;
+    border-color: #000;
+    border-radius: 5px;
+    padding:8px;
+    background-color: rgba(0, 0, 0, 0.12);
+    outline:0;
+}
+div{
+    margin-bottom:20px;
+}
+input::placeholder{
+    font-size:16px;
+    color: rgba(0, 0, 0, 0.597);
+    
+}
+img{
+    display:flex;
+    position: sticky;
+}
+#submit{
+    width:88.5%;
+    height:35px;
+    background-color:transparent;
+    border:2px solid #000;
+    border-radius: 15px;
+    font-size: 20px;
+   
+
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.393);
+    color:white;
+}
+textarea::placeholder{
+    font-size:16px;
+    color: rgba(0, 0, 0, 0.597);
+}
+p{
+    font-style: italic;
+}

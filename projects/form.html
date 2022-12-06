@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/form.css" type="text/css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <section id="page"><h1 id="title">Registration Form</h1>
+        <p id="description">
+            This is a registration form for 3-day trip to Pokhara, organised by xyzabc Pvt. Ltd. <br>Please fill up the form below.
+        </p>
+        <form action="#" id="survey-form">
+            <label id="name-label"><div>Name: <br><input type="text" id="name" placeholder="  Ram Sharma"></div></label>
+            <label id="email-label"><div>E-mail: <br><input type="email" id="email" placeholder="  ramsharma@gmail.com" required></div></label>
+            <label id="cell" ><div>Contact No.: <br><input type="text" placeholder="  Eg. 9845494944"></div></label>
+            <label id="number-label"><div>Age: <br><input type="number"id="number" min=13 max=120 placeholder="  38"></div></label>
+            <label>
+                <div>Sex 
+                    <label><input type="radio" name="sex"  value="male" class="inline">Male</label>
+                    <label><input type="radio" name="sex"  value="female" class="inline">Female</label>
+                    <label><input type="radio" name="sex"  value="other" class="inline">Others</label>
+                </div>
+            </label>
+            <label><div>Address: <br><input type="text"></div></label>
+            <label><div>Job area:<br>
+                <select name="job" id="dropdown">
+                    <option value="">Select one</option>
+                    <option value="1">Agriculture</option>
+                    <option value="2">Medical</option>
+                    <option value="3">Engineer</option>
+                    <option value="4">Finance</option>
+                    <option value="5">Business</option>
+                    <option value="6">Information Technology</option>
+                    <option value="7">Government Sector</option>
+                    <option value="8">NGO/INGO</option>
+                    <option value="9">Others</option>
+                </select>
+                </div>
+            </label>
+            <label>
+                <div>How did you find about us? 
+                    <select name="refer" >
+                        <option value="">Select one</option>
+                        <option value="1">Friends</option>
+                        <option value="2">Online ads</option>
+                        <option value="3">Facebook</option>
+                        <option value="4">Instagram</option>
+                        <option value="5">Google Searches</option>
+                        <option value="6">Twitter</option>
+                        <option value="7">Youtube</option>
+                        <option value="8">Reddit</option>
+                        <option value="9">Others</option>
+                    </select>
+                </div>
+            </label>   
+            <label>
+                <div>What type of activities would you like to be in next time? 
+                    <label><input type="checkbox" name="future-travel"  class="inline" value="mountainclimbing">Mountain Climbing</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline" value="religious tour">Religious Tour</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="bunjee jumping">bunjee jumping</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Rafting">Rafting</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Boating">Boating</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Zipline">Zipline</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Offroad riding">Offroad riding</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Jungle safari">Jungle safari </label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Elephant riding">Elephant riding</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Visiting museums">Visiting museums</label>
+                    <label><input type="checkbox" name="future-travel"  class="inline"value="Other">Other</label>
+                </div>
+            </label>
+            <label>
+                <div>Are you bringing friends too?
+                    <label><input type="radio" name="accquaintance" value="yes" class="inline">Yes</label>
+                    <label><input type="radio" name="accquaintance" value="maybe" class="inline">Maybe</label>
+                    <label><input type="radio" name="accquaintance" value="i_dont_know" class="inline">I dont know</label>
+                    <label><input type="radio" name="accquaintance" value="no" class="inline">No</label>
+                </div>
+            </label>
+            <label>
+                <div>What is your food preference?
+                    <label><input type="radio" name="food" value="veg" class="inline">Veg</label>
+                    <label><input type="radio" name="food" value="nonveg" class="inline">Non-Veg</label>
+                </div>
+            </label>
+            <label>
+                <div>Questions/Requests:<br>
+                    <textarea name="bio" rows="3" cols="30" placeholder="Eg. Can you arrange for a luxury suite?....."></textarea>
+                </div> 
+            </label>
+            <div>
+             <button id="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

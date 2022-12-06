@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#welcome-section{
+    height:100vh;
+    background-image: url(../Images/underwater.jpg);
+    background-size: cover;
+    color:white;
+}
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    width:100vw;
+    font-family: Roboto;
+    
+}
+#navbar>ul{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    list-style: none;
+    gap:10px;
+    padding-right: 10px;
+    
+}
+ul a{
+    width:8vw;
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color:white;
+    transition:0.5s;
+    text-decoration: none;
+}
+ul a:hover{
+    background-color:black;
+    opacity:0.5;
+}
+
+#welcome-section{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+#welcome-section div{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+#welcome-section h2{
+    color:#00a6a6;
+    font-style: italic;
+}
+#sign{
+    height:8vh;
+    width: 8vw;;
+}
+#wolf{
+    height:40vh;
+    width: 20vw;;
+}
+#projects h2{
+    text-align: center;
+    padding:20px 0;
+    font-size:28px;
+    color:white;
+}
+#projects img{
+    width:40vw;
+    height:50vh;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.project-tile:hover img{
+    transform: scale(1.15);
+}
+#projects a{
+    text-decoration: none;
+    color:white;
+}
+
+#projecttable{
+    display:grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 55vh 55vh ;
+    justify-content: center;
+    align-items: center;
+    column-gap:3.5vw;
+    row-gap: 3vh;
+}
+
+
+#projects{
+    background-color: #474a48;
+    background-image: url(../Images/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg);
+    background-size: cover;
+}
+#projects p{
+    text-align: center;
+    width:40vw;
+    
+}
+#contact{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    color:white;
+    background-image: url(../Images/mountains.jpg);
+    background-size: cover;
+}
+#contact h2{
+    font-size: 60px;
+}
+#message p{
+    font-size: 25px;
+    font-style: italic;
+}
+#message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+.contacticons{
+    height:7vh;
+}
+#icons{
+    display:flex;
+    gap:4vw;
+    flex-wrap: wrap;
+}
+.btn{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    color:white;
+    margin-top:16px;
+    transition-duration: 0.3s ;
+}
+.btn:hover{
+   margin-top:9px;
+}
+
+/* for mobile phones */
+@media(max-width:413px){
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    width:100vw;
+    font-family: Roboto;
+    
+}
+#navbar>ul{
+    width:80vw;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    gap:10px;
+    padding-right: 10px;
+    
+}
+ul a{
+    
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color:white;
+    transition:0.5s;
+    text-decoration: none;
+}
+ul a:hover{
+    background-color:black;
+    opacity:0.5;
+}
+
+#welcome-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../Images/underwater.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+#welcome-section div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+#welcome-section h2{
+    color:#00a6a6;
+    font-style: italic;
+}
+#sign{
+    height:8vh;
+    width: 20vw;;
+}
+#wolf{
+    
+    width: 50vw;
+}
+#projects h2{
+    text-align: center;
+    padding:20px 0;
+    font-size:28px;
+    color:white;
+}
+#projects img{
+    width:80vw;
+    height:50vh;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.project-tile:hover img{
+    transform: scale(1.15);
+}
+#projects a{
+    text-decoration: none;
+    color:white;
+}
+
+#projecttable{
+    display:grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: repeat(55vh,4) ;
+    justify-content: center;
+    align-items: center;
+    column-gap:3.5vw;
+    row-gap: 3vh;
+}
+
+
+#projects{
+    background-color: #474a48;
+    background-image: url(../Images/andrew-coelho-aL7SA1ASVdQ-unsplash.jpg);
+    background-size: cover;
+}
+#projects p{
+    text-align: center;
+    width:80vw;
+    
+}
+#contact{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    color:white;
+    background-image: url(../Images/mountains.jpg);
+    background-size: cover;
+}
+#contact h2{
+    font-size: 60px;
+}
+#message p{
+    font-size: 25px;
+    font-style: italic;
+}
+#message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:2px;
+}
+.contacticons{
+    height:5vh;
+}
+#icons{
+    display:flex;
+    gap:4vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    color:white;
+    margin-top:16px;
+    transition-duration: 0.3s ;
+}
+.btn:hover{
+   margin-top:9px;
+}
+}
